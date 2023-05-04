@@ -1,0 +1,15 @@
+.place__url-heading {
+  max-width: 456px;
+  height: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}
+
+@media screen and (max-width:767px) {
+  .place__url-heading {
+    column-gap: 32px;
+  }
+}
