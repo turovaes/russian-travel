@@ -1,6 +1,6 @@
  .cover__link { 
   display: flex;
-  height: inherit;
+  min-height: inherit;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
@@ -9,6 +9,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .cover__link::before {

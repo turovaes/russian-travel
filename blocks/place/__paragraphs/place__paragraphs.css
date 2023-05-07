@@ -16,7 +16,8 @@
 
 @media screen and (max-width:767px) {
   .place__paragraphs {
-  grid-column: 1;
-  grid-row: 4; 
+    grid-column: 1;
+    grid-row: 4;
+    margin: 0 16px;
   }
 }

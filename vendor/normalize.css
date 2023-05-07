@@ -4,12 +4,12 @@
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
+ * 1. Correct the line min-height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-min-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -52,7 +52,7 @@ h1 {
 
 hr {
   box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
+  min-height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
 
@@ -118,14 +118,14 @@ small {
 }
 
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
+ * Prevent `sub` and `sup` elements from affecting the line min-height in
  * all browsers.
  */
 
 sub,
 sup {
   font-size: 75%;
-  line-height: 0;
+  line-min-height: 0;
   position: relative;
   vertical-align: baseline;
 }
@@ -164,7 +164,7 @@ select,
 textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  line-min-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
 
@@ -279,7 +279,7 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+  min-height: auto;
 }
 
 /**
